@@ -8,21 +8,19 @@ are parsed using a modified/simplified recursive descent parser, and
 are finally interpreted(see interpreter.c for details). The evaluation 
 is done using an environment (and frame) model.
 
-Limitations
-===========
-The program does not handle all scheme commands. For details, look at the 
-bindings and special forms in interpreter.c.
+
+
 
 Usage
 ===========
 To Run:
 1. Go to Directory
-2. `make interpreter < testFile` 
-3. `make memtest < testFile` for memory tests using Valgrind.
-4. `make clean` to remove all compiled files.
+2. Make 
+3. ./interpreter < testFile
+4. Check for memory leaks: make memtest < testFile
+5. Have fun:)
 
-`testFile` could be selected from the list of test cases in directory:
-`test-cases`
+
 
 Credits
 ===========
