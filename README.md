@@ -1,5 +1,6 @@
-# Scheme Interpreter
+# Scheme Interpreter 
 
+Scheme can be considered a dialect of LISP.
 This project implements a Scheme Interpreter for RSR5 in C. The project 
 builds off a linkedlist represented as a cons type (Scheme), and uses Value 
 structs(see value.h) to store information about each token seen in the 
